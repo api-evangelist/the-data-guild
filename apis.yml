@@ -1,8 +1,26 @@
 aid: the-data-guild
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-data-guild.png
 name: The Data Guild
-description: The Data Guild is a company surfaced as a portfolio company of bloomberg-beta and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: The Data Guild is a San Francisco-based venture studio, founded in 2013, that builds
+  data-driven companies addressing challenges in healthcare, life sciences, renewable energy, and
+  climate change. Steeped in machine learning, data science, and artificial intelligence, the Guild
+  pioneers a co-creation model that converts LP capital into equity across a portfolio of new ventures
+  while applying its own team's efforts directly rather than simply allocating capital. It brings
+  products to market through spinouts, alongside portfolio-company teams, and with strategic partners.
+  Investors include Bloomberg Beta, David Gutelius, and Silicon Valley Data Capital. The Data Guild
+  operates a marketing/company website and publishes no public API, developer documentation, SDKs, or
+  MCP surface; this profile captures its identity and a domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/the-data-guild/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +30,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Venture Studio
+- Data Science
+- Machine Learning
+- Artificial Intelligence
+- Healthcare
+- Climate
 apis: []
+x-investors:
+- bloomberg-beta
+- David Gutelius
+- Silicon Valley Data Capital
+x-founded: '2013'
+x-headquarters: San Francisco, CA
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/the-data-guild-domain-security.yml
 - type: Website
   url: https://www.thedataguild.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/the-data-guild
+- type: Portfolio
+  url: https://www.thedataguild.com/portfolio
+- type: Team
+  url: https://www.thedataguild.com/team
+- type: Contact
+  url: https://www.thedataguild.com/contact
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
